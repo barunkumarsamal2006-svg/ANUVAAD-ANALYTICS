@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://barunkumarsamal2006-svg@github.com/barunkumarsamal2006-svg/ANUVAAD-ANALYTICS.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

@@ -1,10 +1,13 @@
 import streamlit as st
 import os
+import sys
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 import pandas as pd
 from datetime import datetime
 
 # Import project modules
-from Config import settings
+from config import settings
 from database.db_handler import DatabaseHandler
 from pipeline.translator import translate_odia_to_english
 from pipeline.sentiment import analyze_sentiment

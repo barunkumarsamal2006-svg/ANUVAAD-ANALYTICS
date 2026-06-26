@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime
 
 # Import project modules
-from config import settings
+from Config import settings
 from database.db_handler import DatabaseHandler
 from pipeline.translator import translate_odia_to_english
 from pipeline.sentiment import analyze_sentiment
@@ -19,7 +19,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
 # Initialize Database Handler (Self-heals and seeds database/CSVs if missing)
 db = DatabaseHandler()
 

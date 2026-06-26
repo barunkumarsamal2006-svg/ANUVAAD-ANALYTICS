@@ -7,7 +7,7 @@ import pandas as pd
 from datetime import datetime
 
 # Import project modules
-from config import settings
+from Config import settings
 from database.db_handler import DatabaseHandler
 from pipeline.translator import translate_odia_to_english
 from pipeline.sentiment import analyze_sentiment

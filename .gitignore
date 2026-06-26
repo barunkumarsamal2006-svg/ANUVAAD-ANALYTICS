@@ -1,0 +1,25 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+
+# Database files
+database/*.db
+data/*.db
+*.db
+
+# Model pickles
+models/*.pkl
+!models/.gitkeep
+
+# Streamlit config/cache
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
